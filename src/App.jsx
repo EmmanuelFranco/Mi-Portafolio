@@ -38,6 +38,9 @@ function App() {
           <p className="mb-4">
             Poco a poco iré actualizando con mejor código y/o mejor tecnología.
           </p>
+          <p className="mb-4">
+            Por ahora solo se ve bien en computador... Falta mejorar agunos detalles del Responsive.
+          </p>
           <button
             onClick={closeModal}
             className="bg-blue-500 text-white px-4 py-2 rounded"

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 
 const Technologies = () => {
-  const techList = ['CSS', 'HTML', 'JavaScript', 'React', 'PHP', 'MySQL', 'Wordpress', 'Tailwind CSS'];
+  const techList = ['CSS', 'HTML', 'JavaScript', 'React', 'PHP', 'MySQL', 'Wordpress', 'Tailwind CSS', 'GitHub'];
   const marqueeRef = useRef(null);
 
   useEffect(() => {
@@ -31,6 +31,7 @@ const Technologies = () => {
 
   return (
     <section className="bg-gray-100 py-8">
+       <h1 className='mb-4 text-center text-2xl font-bold text-gray-800'>Tecnologías que he usado</h1>
       <div className="flex space-x-4 overflow-hidden relative" ref={marqueeRef}>
         <div className="marquee w-full overflow-hidden">
           {techList.map((tech, index) => (

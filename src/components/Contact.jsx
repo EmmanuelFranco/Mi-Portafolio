@@ -34,8 +34,8 @@ const Contact = () => {
 
   return (
     <section className="bg-gray-800 text-white py-8">
-      <div className="max-w-screen-xl mx-auto flex">
-        <div className="w-1/2 p-8">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row">
+        <div className="md:w-1/2 p-8">
           <form>
             <div className="mb-4">
               <label
@@ -127,19 +127,19 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="w-1/2">
+        <div className="md:w-1/2 mt-4 md:mt-0">
           {/* 
-    Google Maps
-    <iframe
-      title="Google Maps"
-      width="100%"
-      height="100%"
-      frameBorder="0"
-      style={{ border: 0 }}
-      src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=YOUR_QUERY"
-      allowFullScreen
-    ></iframe>
-  */}
+            Google Maps
+            <iframe
+              title="Google Maps"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              style={{ border: 0 }}
+              src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=YOUR_QUERY"
+              allowFullScreen
+            ></iframe>
+          */}
         </div>
       </div>
     </section>
